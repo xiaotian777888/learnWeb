@@ -64,6 +64,7 @@
     width: 252px;
 }
 .lifeservice ul li {
+    position: relative;
     float: left;
     width: 63px;
     height: 71px;
@@ -81,7 +82,85 @@
     background: url(../images/icons.png) no-repeat -16px -16px
 }
 
+.lifeservice .hot p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 10px;
+    color: white;
+    background-color: #589d5a;
+    line-height: 12px;
+}
+.lifeservice .hot .triangular {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+    /* 底部三角 */
+    border-width: 0 6px 4px 6px;
+    border-style: solid;
+    border-color: #589d5a;
+    border-bottom-color: white;
+}
+
 .bargain {
     margin-top: 5px;
+}
+
+.recomend {
+    height: 164px;
+    margin-top: 10px;
+}
+.recomend_hd {
+    float: left;
+    width: 210px;
+    height: 164px;
+    text-align: center;
+    background-color: #5c5251;
+}
+.recomend_hd img {
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+}
+.recomend_hd p {
+    font-size: 20px;
+    color: white;
+}
+.recomend_bd {
+    float: left;
+    width: 990px;
+    height: 164px;
+    padding: 10px 0;
+    background-color: #ebebeb;
+}
+.recomend_bd ul {
+    width: 992px;
+}
+.recomend_bd ul li{
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    width: 208px;
+    height: 144px;
+}
+.recomend_bd ul li:nth-child(-n+3):after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 124px;
+    background-color: #dfdfdf;
+}
+.recomend_bd ul li img{
+    width: 100%;
+    height: 100%;
 }
 

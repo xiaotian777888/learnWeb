@@ -40,7 +40,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-
+em,
+i {
+    font-style:normal
+}
 /**
  * 移除常用标签的浏览器默认的「margin、padding」
  * pre、code、legend、fieldset、blockquote … 等标签不是很常用，所以就不一一列举，如果项目中使用到，可以自己单独写
