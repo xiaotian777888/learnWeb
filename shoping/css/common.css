@@ -18,6 +18,9 @@
 .style_red {
     color: #c81623;
 }
+a:hover {
+    color: #b1191a;
+}
 .shortcut {
     height: 31px;
     background-color: #f1f1f1;
