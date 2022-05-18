@@ -23,6 +23,13 @@
   -webkit-transform: translateZ(0);
 }
 
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
 
 /*利用绝对定位宽高拉升原理，中心居中元素，原子类*/
 

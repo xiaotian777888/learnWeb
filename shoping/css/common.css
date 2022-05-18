@@ -30,14 +30,6 @@ a:hover {
     float: left;
 }
 
-.fl {
-    float: left;
-}
-
-.fr {
-    float: right;
-}
-
 .shortcut .fr ul li:nth-child(2n)  {
     width: 1px;
     height: 12px;
@@ -275,6 +267,7 @@ a:hover {
     width: 100px;
     text-align: center;
 }
+
 .mod-copyright {
     padding-top: 20px;
     text-align: center;
