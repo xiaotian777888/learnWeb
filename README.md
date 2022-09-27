@@ -1,2 +1,2 @@
-# learnWeb
-学习h5
+# Privacy Policy
+We will not collect any user privacy data.
